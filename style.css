@@ -1,0 +1,114 @@
+html{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    background-color: #e6eff6;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+main{
+    margin: 100px auto;
+    padding: 0;
+    width: 650px;
+    box-shadow: 3px 3px #d5e0ea;
+    box-shadow: -2px -2px #d5e0ea, 2px 2px #d5e0ea;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#up-section{
+    background-color: white;
+    padding: 30px 40px;
+    padding-bottom: 30px;
+}
+#up-section h1{
+    color: #2ab2af;
+    margin: 0 0 30px 0;
+}
+#up-section h3{
+    color: #c0df34;
+}
+#up-section p{
+    color:hsl(218, 22%, 67%);
+}
+
+
+
+
+
+#down-section{
+    display: flex;
+    color: white;
+}
+#down-section div{
+    flex-basis: 50%;
+    padding: 30px 40px;
+}
+#left-bar{
+    background-color: #2ab2af;
+}
+#left-bar h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#price span{
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+}
+#price{
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+#left-bar p{
+    margin-top: 5px;
+}
+#left-bar button{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: 'Karla';
+}
+#left-bar button:hover{
+    cursor: pointer;
+    scale: 1.05;
+
+}
+
+
+#right-bar{
+    background-color: #49bebd;
+}
+#right-bar ol{
+    list-style: none;
+    opacity: 0.9;
+    padding-left: 0;
+    margin-bottom: 0;
+    color: #fafaff;
+}
+li{
+    margin-bottom: 2px;
+}
+#right-bar h2{
+    margin-top: 0;
+}
+
+@media (max-width: 650px){
+    main{
+        width: 400px;
+        margin: 0 auto;
+    }
+    #down-section{
+        flex-direction: column;
+    }
+    
+
+}
